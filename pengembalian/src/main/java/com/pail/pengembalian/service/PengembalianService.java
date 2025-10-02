@@ -54,13 +54,21 @@ public class PengembalianService {
 
         ServiceInstance anggotaInstance = discoveryClient.getInstances("ANGGOTA").get(0);
         Anggota anggota = restTemplate.getForObject(
+<<<<<<< HEAD
                 anggotaInstance.getUri() + "/api/anggota/" + peminjaman.getAnggotaId(),
+=======
+                anggotaInstance.getUri() + "/api/anggota/" + pengembalian.getAnggotaId(),
+>>>>>>> b901095e2064387fc79bb9f091466ae397170d8e
                 Anggota.class
         );
         
         ServiceInstance bukuInstance = discoveryClient.getInstances("BUKU").get(0);
         Buku buku = restTemplate.getForObject(
+<<<<<<< HEAD
             bukuInstance.getUri() + "/api/buku/" + peminjaman.getBukuId(),
+=======
+            bukuInstance.getUri() + "/api/buku/" + pengembalian.getBukuId(),
+>>>>>>> b901095e2064387fc79bb9f091466ae397170d8e
         Buku.class
         );
 

@@ -18,6 +18,7 @@ public class PeminjamanModel {
     private Long bukuId;
     private LocalDate tanggal_pinjam;
     private LocalDate tanggal_kembali;
+<<<<<<< HEAD
 
     public Long getAnggotaId() {
         return anggotaId;
@@ -36,4 +37,6 @@ public class PeminjamanModel {
     }
 
 
+=======
+>>>>>>> b901095e2064387fc79bb9f091466ae397170d8e
 }

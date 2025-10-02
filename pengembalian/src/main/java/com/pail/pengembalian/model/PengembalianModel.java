@@ -18,6 +18,7 @@ public class PengembalianModel {
     private LocalDate tanggal_dikembalikan; //yyyy-mm-dd
     private Integer terlambat; //satuan hari ya
     private Double denda; //bayar berapa ntar, jika lewat sehari maka 2000 aja
+<<<<<<< HEAD
 
     public Long getPeminjamanId() {
         return peminjamanId;
@@ -25,4 +26,6 @@ public class PengembalianModel {
     public void setPeminjamanId(Long peminjamanId) {
         this.peminjamanId = peminjamanId;
     }
+=======
+>>>>>>> b901095e2064387fc79bb9f091466ae397170d8e
 }
